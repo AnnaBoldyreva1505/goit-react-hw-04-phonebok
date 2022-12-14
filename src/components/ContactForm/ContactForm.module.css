@@ -1,0 +1,26 @@
+.form {
+   width: 480px;
+}
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.div {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.btn{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn:hover {
+border-color: aqua;
+background: rgb(239, 232, 232);
+}

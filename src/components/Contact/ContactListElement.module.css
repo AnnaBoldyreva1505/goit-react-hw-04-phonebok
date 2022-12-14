@@ -1,0 +1,10 @@
+.btn {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    border-color: aqua;
+    background: rgb(239, 232, 232);
+}
