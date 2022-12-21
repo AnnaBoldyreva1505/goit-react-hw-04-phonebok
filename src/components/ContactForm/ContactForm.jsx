@@ -1,15 +1,14 @@
 // import ContactList from 'components/ContactList/ContactList';
 import PropTypes from 'prop-types';
-import { Component } from 'react';
+import { useState } from "react";
 import  css from './ContactForm.module.css';
 
-class ContactForm extends Component {
-  state = {
-    name: '',
-    number: '',
-  };
+const ContactForm = () => {
+  const [name, setName] = useState('');
+   const [number, setNumber] = useState('');
 
-  handleChange = event => {
+
+  const handleChange = event => {
     this.setState({ [event.currentTarget.name]: event.currentTarget.value });
   };
 
